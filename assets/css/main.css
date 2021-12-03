@@ -746,11 +746,18 @@ img {
     padding: 120px 0;
 }
 
-.section-padding-2 {
+.section-padding-2{
     padding-top: 120px;
     padding-bottom: 90px;
-    padding-left: 50px;
 }
+   
+.section-padding-4{
+    padding-top: 120px;
+    padding-bottom: 90px;
+    
+    
+}
+   
 
 .section-padding-3 {
     padding-top: 120px;
@@ -802,6 +809,8 @@ img {
     .section-padding-2 {
         padding-top: 100px;
         padding-bottom: 70px;
+       
+    }
     }
 
     .section-padding-3 {
@@ -824,6 +833,12 @@ img {
         padding-top: 80px;
         padding-bottom: 20px;
     }
+    .section-padding-4{
+        align-self: center;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        
+    }
 }
 
 @media (max-width: 575px) {
@@ -835,6 +850,7 @@ img {
 @media (max-width: 450px) {
     .section-title h2 {
         font-size: 32px;
+        padding-left: 20px;
     }
 }
 
